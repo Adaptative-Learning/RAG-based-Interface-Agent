@@ -1,1 +1,1 @@
-# RAG-based-Interface-Agent
+# RAG-based Interface Agent
