@@ -1,67 +1,92 @@
 # RAG-based Adaptive Learning System
 
-Un système d'orientation IT adaptatif utilisant la technologie RAG (Retrieval-Augmented Generation) avec l'API Groq pour analyser les profils des étudiants et recommander des domaines IT appropriés.
+Un système complet d'orientation IT adaptatif utilisant la technologie RAG (Retrieval-Augmented Generation) avec l'API Groq pour analyser les profils des étudiants et recommander des domaines IT appropriés. Inclut une API FastAPI backend et une interface React frontend moderne.
 
 ## 🚀 Fonctionnalités
 
 - **Questionnaire interactif** : Évalue les compétences, intérêts et expériences des étudiants
 - **Base de connaissances vectorielle** : Utilise ChromaDB pour stocker et rechercher des informations sur les domaines IT
 - **Analyse LLM avancée** : Intègre l'API Groq (Llama 3.3) pour des recommandations personnalisées
+- **API REST complète** : FastAPI avec endpoints documentés pour l'intégration
+- **Interface React moderne** : Interface utilisateur responsive et intuitive
 - **Recommandations détaillées** : Fournit des scores, niveaux de confiance et axes d'amélioration
 
 ## 📋 Prérequis
 
 - Python 3.8+
+- Node.js 16+ et npm
 - Clé API Groq (obtenir sur https://console.groq.com/)
 
-## 🛠️ Installation
+## 🛠️ Installation et Configuration
 
-1. **Cloner le repository**
-   ```bash
-   git clone https://github.com/Adaptative-Learning/RAG-based-Interface-Agent.git
-   cd RAG-based-Interface-Agent
-   git checkout Groq
-   ```
+### 1. Cloner le repository
+```bash
+git clone https://github.com/Adaptative-Learning/RAG-based-Interface-Agent.git
+cd RAG-based-Interface-Agent
+git checkout Demo  # Pour la version complète avec interface React
+```
 
-2. **Créer un environnement virtuel**
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate  # Sur Windows
-   # ou
-   source .venv/bin/activate  # Sur Linux/Mac
-   ```
+### 2. Configuration du Backend (Python/FastAPI)
 
-3. **Installer les dépendances**
-   ```bash
-   pip install -r requirements.txt
-   ```
+#### Créer un environnement virtuel
+```bash
+python -m venv .venv
+.venv\Scripts\activate  # Sur Windows
+# ou
+source .venv/bin/activate  # Sur Linux/Mac
+```
 
-4. **Configurer la clé API**
-   - Créer un fichier `.env` dans le répertoire racine
-   - Ajouter votre clé API Groq :
-   ```
-   GROQ_API_KEY=votre_clé_api_ici
-   ```
+#### Installer les dépendances Python
+```bash
+pip install -r requirements.txt
+```
+
+#### Configurer la clé API
+Créer un fichier `.env` dans le répertoire racine :
+```
+GROQ_API_KEY=votre_clé_api_ici
+```
+
+### 3. Configuration du Frontend (React)
+
+#### Installer les dépendances Node.js
+```bash
+cd rag-interface
+npm install
+cd ..
+```
 
 ## 🎯 Utilisation
 
-### Lancement du système
+### Option 1: Interface Web Complète (Recommandé)
+
+#### Lancement du Backend API
+```bash
+# Depuis le répertoire racine
+python api_runner.py
+```
+L'API sera disponible sur `http://localhost:8000`
+
+#### Lancement du Frontend React
+```bash
+# Dans un nouveau terminal
+cd rag-interface
+npm start
+```
+L'interface sera disponible sur `http://localhost:3000`
+
+### Option 2: Interface CLI (Originale)
+
+#### Lancement du système CLI
 ```bash
 python src/main.py
 ```
 
-### API REST
+## 🌐 API REST Documentation
 
-Le système inclut également une API FastAPI pour une intégration facile.
+### Endpoints Disponibles
 
-#### Lancement de l'API
-```bash
-python api_runner.py
-```
-
-#### Endpoints disponibles
-
-##### GET `/questions`
+#### GET `/questions`
 Retourne toutes les questions du questionnaire avec leurs options.
 
 **Exemple de réponse :**
@@ -81,7 +106,7 @@ Retourne toutes les questions du questionnaire avec leurs options.
 }
 ```
 
-##### POST `/analyze`
+#### POST `/analyze`
 Analyse les réponses du questionnaire et retourne les recommandations.
 
 **Corps de la requête :**
@@ -118,7 +143,7 @@ Analyse les réponses du questionnaire et retourne les recommandations.
 }
 ```
 
-##### GET `/health`
+#### GET `/health`
 Vérification de l'état de l'API.
 
 **Réponse :**
@@ -129,79 +154,80 @@ Vérification de l'état de l'API.
 }
 ```
 
-#### Documentation interactive
+### Documentation Interactive
 Accédez à la documentation complète de l'API sur `http://localhost:8000/docs` une fois le serveur lancé.
 
-### Processus d'utilisation (Interface CLI)
+## 🖥️ Interface Web (React)
 
-1. **Chargement de la base de connaissances**
-   - Le système charge automatiquement les descriptions des domaines IT depuis `data/domaines/`
+### Fonctionnalités de l'Interface
 
-2. **Questionnaire interactif**
-   - Répondez aux 10 questions sur vos compétences, expériences et intérêts
-   - Chaque question propose plusieurs choix numérotés
+- **Questionnaire Progressif** : Navigation intuitive avec barre de progression
+- **Affichage des Résultats** : Visualisation moderne des recommandations
+- **Gestion d'Erreurs** : Messages d'erreur informatifs et récupération
+- **États de Chargement** : Indicateurs visuels pendant l'analyse
+- **Design Responsive** : Compatible mobile et desktop
+- **Recommencement Facile** : Possibilité de refaire le questionnaire
 
-3. **Analyse et recommandations**
-   - Le système analyse vos réponses en utilisant l'IA
-   - Fournit des recommandations personnalisées avec scores et justifications
+### Composants Principaux
 
-### Exemple de sortie
-```
-Système de prédiction de domaines IT
+- **Questionnaire** : Interface de questions avec navigation
+- **Results** : Affichage détaillé des recommandations
+- **Loading** : État de chargement avec étapes
+- **ErrorMessage** : Gestion des erreurs avec options de retry
 
-Chargement de la base de connaissances...
-   ✓ cloud
-   ✓ cybersecurite
-   ✓ data science
-   ✓ devops
-   ✓ reseaux
-   ✓ software
-
-Début du questionnaire
-Question 1: Comment préférez-vous résoudre un problème complexe...
-[Questions interactives]
-
-Analyse en cours...
-RÉSULTATS
-
-data science : 85%
-   Confiance : haute
-   Raisons :
-   ✓ Intérêt marqué pour l'analyse de données
-   ✓ Compétences techniques alignées
-   ✓ Motivation pour les projets data
-```
-
-## 📁 Structure du projet
+## 📁 Structure du Projet
 
 ```
 ├── data/
-│   └── domaines/          # Descriptions des domaines IT
+│   └── domaines/              # Descriptions des domaines IT
 │       ├── cloud.txt
 │       ├── cybersecurite.txt
 │       ├── data science.txt
 │       ├── devops.txt
 │       ├── reseaux.txt
 │       └── software.txt
-├── src/
-│   ├── main.py           # Point d'entrée principal
-│   ├── vector_store.py   # Gestion de la base vectorielle ChromaDB
-│   ├── llm_analyzer.py   # Analyseur LLM avec API Groq
-│   └── questionnaire.py   # Gestionnaire du questionnaire
-├── .env                  # Variables d'environnement (non versionné)
-├── .gitignore           # Fichiers à ignorer
-├── requirements.txt     # Dépendances Python
-└── questionnaire.json    # Configuration du questionnaire
+├── src/                       # Backend Python
+│   ├── api.py                # API FastAPI
+│   ├── main.py               # Interface CLI originale
+│   ├── vector_store.py       # Gestion ChromaDB
+│   ├── llm_analyzer.py       # Analyseur Groq
+│   └── questionnaire.py       # Gestion questionnaire
+├── rag-interface/            # Frontend React
+│   ├── public/
+│   ├── src/
+│   │   ├── components/       # Composants React
+│   │   │   ├── Questionnaire.js
+│   │   │   ├── Results.js
+│   │   │   ├── Loading.js
+│   │   │   └── ErrorMessage.js
+│   │   ├── services/
+│   │   │   └── api.js       # Service API frontend
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── .env                      # Variables d'environnement
+├── api_runner.py             # Script de lancement API
+├── requirements.txt          # Dépendances Python
+├── questionnaire.json         # Configuration questionnaire
+└── README.md
 ```
 
-## 🔧 Technologies utilisées
+## 🔧 Technologies Utilisées
 
+### Backend
 - **Python 3.8+** : Langage principal
-- **ChromaDB** : Base de données vectorielle pour le RAG
+- **FastAPI** : Framework API REST
+- **ChromaDB** : Base de données vectorielle
 - **Groq API** : Service LLM (Llama 3.3 70B)
 - **python-dotenv** : Gestion des variables d'environnement
 
-## 🎨 Domaines IT couverts
+### Frontend
+- **React 18** : Bibliothèque JavaScript
+- **Axios** : Client HTTP pour API
+- **CSS Modules** : Styles composants
+- **Create React App** : Outil de build
+
+## 🎨 Domaines IT Couvert
 
 - **Cloud Computing** : Infrastructure et services cloud
 - **Cybersécurité** : Protection et sécurité des systèmes
@@ -210,17 +236,17 @@ data science : 85%
 - **Réseaux** : Architecture et administration réseau
 - **Software Development** : Développement logiciel
 
-## 🔍 Comment ça marche
+## 🔍 Architecture et Fonctionnement
 
 1. **Indexation** : Les descriptions des domaines IT sont vectorisées et stockées dans ChromaDB
-2. **Questionnaire** : Collecte des informations sur le profil de l'étudiant
-3. **Recherche sémantique** : Recherche des domaines les plus pertinents
-4. **Analyse LLM** : Génération de recommandations personnalisées avec justifications
-5. **Rapport** : Présentation des résultats avec scores et conseils
+2. **Questionnaire** : Collecte des informations sur le profil de l'étudiant (CLI ou Web)
+3. **Recherche Sémantique** : Recherche des domaines les plus pertinents dans la base vectorielle
+4. **Analyse LLM** : Génération de recommandations personnalisées avec justifications via Groq
+5. **Rapport** : Présentation des résultats avec scores, confiance et conseils d'amélioration
 
 ## 🚨 Dépannage
 
-### Erreur "ModuleNotFoundError"
+### Erreur "ModuleNotFoundError" (Python)
 Assurez-vous d'avoir activé l'environnement virtuel et installé les dépendances :
 ```bash
 .venv\Scripts\activate
@@ -235,6 +261,36 @@ GROQ_API_KEY=votre_clé_api_ici
 
 ### Erreur de chargement des domaines
 Vérifiez que le dossier `data/domaines/` existe et contient les fichiers `.txt`.
+
+### Problèmes avec l'interface React
+```bash
+cd rag-interface
+npm install  # Réinstaller les dépendances
+npm start    # Relancer le serveur de développement
+```
+
+### Port déjà utilisé
+Si le port 3000 (React) ou 8000 (API) est déjà utilisé :
+```bash
+# Pour React (dans rag-interface/)
+npm start -- --port 3001
+
+# Pour l'API
+python api_runner.py --port 8001
+```
+
+## 🧪 Tests
+
+### Test de l'API
+```bash
+python test_api.py
+```
+
+### Test du Frontend
+```bash
+cd rag-interface
+npm test
+```
 
 ## 🤝 Contribution
 
@@ -256,4 +312,12 @@ Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
 - Groq pour l'API LLM
 - ChromaDB pour la base de données vectorielle
-- La communauté Python pour les bibliothèques open source
+- FastAPI pour le framework API
+- React pour la bibliothèque frontend
+- La communauté open source Python et JavaScript
+
+---
+
+## 📞 Support
+
+Pour toute question ou problème, ouvrez une issue sur GitHub ou contactez les contributeurs du projet.
