@@ -50,7 +50,89 @@ Un système d'orientation IT adaptatif utilisant la technologie RAG (Retrieval-A
 python src/main.py
 ```
 
-### Processus d'utilisation
+### API REST
+
+Le système inclut également une API FastAPI pour une intégration facile.
+
+#### Lancement de l'API
+```bash
+python api_runner.py
+```
+
+#### Endpoints disponibles
+
+##### GET `/questions`
+Retourne toutes les questions du questionnaire avec leurs options.
+
+**Exemple de réponse :**
+```json
+{
+  "title": "Questionnaire de Profil IT pour Adaptive Learning",
+  "description": "Évaluez vos préférences et compétences...",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Comment préférez-vous résoudre un problème complexe...",
+      "type": "multiple_choice",
+      "options": ["Option 1", "Option 2", ...],
+      "linked_domains": ["Domaine1", "Domaine2"]
+    }
+  ]
+}
+```
+
+##### POST `/analyze`
+Analyse les réponses du questionnaire et retourne les recommandations.
+
+**Corps de la requête :**
+```json
+{
+  "answers": [
+    {
+      "question_id": 1,
+      "answer": "Coder une solution testable et itérative"
+    },
+    {
+      "question_id": 2,
+      "answer": "Optimiser les paramètres et la performance du système"
+    }
+  ]
+}
+```
+
+**Exemple de réponse :**
+```json
+{
+  "predictions": [
+    {
+      "domaine": "data science",
+      "score": 85,
+      "raisons": ["Intérêt marqué pour l'analyse de données", "Compétences techniques alignées"],
+      "confiance": "haute",
+      "points_forts": ["Analyse de données", "Python"],
+      "axes_amelioration": ["Machine Learning avancé"]
+    }
+  ],
+  "resume_global": "Profil orienté vers l'analyse de données...",
+  "top_3_recommandations": ["data science", "devops", "software"]
+}
+```
+
+##### GET `/health`
+Vérification de l'état de l'API.
+
+**Réponse :**
+```json
+{
+  "status": "healthy",
+  "service": "RAG IT Orientation API"
+}
+```
+
+#### Documentation interactive
+Accédez à la documentation complète de l'API sur `http://localhost:8000/docs` une fois le serveur lancé.
+
+### Processus d'utilisation (Interface CLI)
 
 1. **Chargement de la base de connaissances**
    - Le système charge automatiquement les descriptions des domaines IT depuis `data/domaines/`
