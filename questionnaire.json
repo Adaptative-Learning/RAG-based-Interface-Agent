@@ -1,0 +1,137 @@
+{
+  "title": "Questionnaire de Profil IT pour Adaptive Learning",
+  "description": "Évaluez vos préférences et compétences pour identifier les domaines IT qui vous correspondent le mieux.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Comment préférez-vous résoudre un problème complexe dans un projet ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Développement logiciel", "Data et IA", "Cybersécurité"],
+      "options": [
+        "Analyser les données disponibles pour trouver la solution",
+        "Coder une solution testable et itérative",
+        "Tester différentes hypothèses rapidement pour identifier le problème",
+        "Collaborer avec l’équipe pour brainstormer",
+        "Appliquer des méthodologies standardisées (agile, design thinking)"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Si vous deviez configurer un système ou un réseau, quelle approche choisiriez-vous ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Réseaux informatiques", "Cloud et automatisation", "Systèmes embarqués"],
+      "options": [
+        "Optimiser les paramètres et la performance du système",
+        "Sécuriser chaque connexion et utilisateur",
+        "Automatiser les tâches répétitives pour gagner du temps",
+        "Tester le système en conditions réelles",
+        "Documenter et suivre les bonnes pratiques"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Dans un projet logiciel, quel rôle vous attire le plus ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Développement logiciel", "Data et IA", "Cloud et automatisation"],
+      "options": [
+        "Écrire du code et créer des fonctionnalités",
+        "Analyser les données pour améliorer le produit",
+        "Mettre en place des pipelines et déploiements automatisés",
+        "Assurer la qualité et les tests des applications",
+        "Optimiser les performances du système"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Comment réagiriez-vous face à une faille de sécurité découverte dans un système ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Cybersécurité"],
+      "options": [
+        "Analyser la faille et trouver une solution immédiate",
+        "Mettre en place des mesures de protection et prévenir l’équipe",
+        "Chercher comment l’incident a été possible pour éviter la répétition",
+        "Collaborer avec d’autres experts pour corriger rapidement",
+        "Documenter et partager la solution pour la communauté"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Quel type de projet IT vous attire le plus ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Systèmes embarqués", "IoT", "Réseaux informatiques", "Cloud et automatisation"],
+      "options": [
+        "Développer une application connectée avec des objets intelligents",
+        "Mettre en place un réseau ou infrastructure sécurisée",
+        "Optimiser un système ou serveur pour la performance",
+        "Créer un prototype hardware pour un usage pratique",
+        "Automatiser un processus pour faciliter le travail"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Comment aimez-vous apprendre de nouvelles technologies ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Tous domaines IT"],
+      "options": [
+        "Par des tutoriels et documentation officielle",
+        "En expérimentant sur des projets pratiques",
+        "En analysant et reproduisant des projets existants",
+        "En participant à des challenges ou hackathons",
+        "En collaborant avec des mentors ou des experts"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Face à une énorme quantité de données, que feriez-vous ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Data et IA", "Développement logiciel", "Cloud et automatisation"],
+      "options": [
+        "Analyser et visualiser les données pour comprendre des tendances",
+        "Créer des scripts pour traiter les données efficacement",
+        "Automatiser le nettoyage et la gestion des données",
+        "Chercher des patterns ou anomalies importantes",
+        "Stocker et organiser les données pour un accès rapide"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Lorsqu’un bug survient dans un système ou programme, que faites-vous ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Développement logiciel", "Cybersécurité", "Réseaux informatiques"],
+      "options": [
+        "Identifier la source du bug par une analyse approfondie",
+        "Tester différentes solutions pour résoudre rapidement le problème",
+        "Chercher si d’autres systèmes sont affectés",
+        "Documenter le bug et sa résolution pour l’avenir",
+        "Collaborer avec l’équipe pour trouver la meilleure solution"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Quel type de projet vous motive le plus à long terme ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Tous domaines IT"],
+      "options": [
+        "Créer une application ou logiciel utilisé par des utilisateurs finaux",
+        "Optimiser ou sécuriser des systèmes existants",
+        "Analyser des données pour améliorer la prise de décision",
+        "Mettre en place une infrastructure réseau ou cloud efficace",
+        "Développer des objets connectés ou systèmes embarqués"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Quelle compétence souhaitez-vous développer pour votre futur métier IT ?",
+      "type": "multiple_choice",
+      "linked_domains": ["Tous domaines IT"],
+      "options": [
+        "Programmation et développement logiciel",
+        "Analyse et traitement de données",
+        "Sécurité et protection des systèmes",
+        "Administration de réseaux et infrastructures",
+        "Automatisation et cloud computing",
+        "Création et gestion de systèmes embarqués"
+      ]
+    }
+  ]
+}

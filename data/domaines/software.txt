@@ -1,0 +1,169 @@
+# DOMAINE : Développement Logiciel / Software Engineering
+
+## DESCRIPTION GÉNÉRALE
+
+Le **développement logiciel** consiste à **concevoir, implémenter, tester, déployer et maintenir** des applications informatiques répondant à des besoins précis. Le **Software Engineer** transforme un problème réel en une solution logicielle fiable, maintenable et évolutive.
+
+Contrairement à l’idée reçue, le développement ne se limite pas à “écrire du code”. Il implique la **compréhension du besoin**, la **conception d’architectures logicielles**, la **qualité du code**, les **tests**, la **documentation** et la **collaboration en équipe**.
+
+Le développement logiciel est au cœur de tous les autres domaines : Data, Cloud, DevOps, Réseaux, Cybersécurité. Sans code bien conçu, aucun système ne peut être robuste.
+
+---
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Langages de programmation
+
+* **Python** (backend, scripts, data)
+* **Java** (applications enterprise)
+* **C / C++** (systèmes, performance)
+* **JavaScript / TypeScript** (web)
+* **C#** (.NET)
+* **Go** (backend, systèmes distribués)
+* **Rust** (sécurité, performance – bases)
+
+### Programmation orientée objet & paradigmes
+
+* Programmation orientée objet (OOP)
+* Programmation fonctionnelle (bases)
+* Programmation procédurale
+* Design patterns (Singleton, Factory, Observer, MVC)
+* SOLID principles
+
+### Développement Web
+
+* Frontend :
+
+  * HTML, CSS
+  * JavaScript
+  * React, Angular, Vue
+* Backend :
+
+  * Node.js, Django, Flask, Spring Boot
+* APIs REST
+* GraphQL
+* Authentification et autorisation
+
+### Architecture logicielle
+
+* Architecture en couches
+* MVC / MVVM
+* Microservices
+* Monolithes modulaires
+* Event-driven architecture
+* Clean Architecture
+
+### Bases de données
+
+* SQL (PostgreSQL, MySQL)
+* NoSQL (MongoDB, Redis)
+* Modélisation des données
+* ORM (Hibernate, SQLAlchemy)
+* Transactions et cohérence
+
+### Tests & Qualité
+
+* Tests unitaires
+* Tests d’intégration
+* Tests fonctionnels
+* TDD (Test Driven Development)
+* Code review
+* Refactoring
+
+### Outils & environnement
+
+* Git (branches, merge, rebase)
+* GitHub / GitLab
+* IDEs (VS Code, IntelliJ, Eclipse)
+* Build tools (Maven, Gradle, npm)
+* CI/CD (bases)
+
+---
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Résolution de problèmes
+
+* Décomposition des problèmes
+* Pensée algorithmique
+* Debugging structuré
+* Optimisation
+
+### Communication & collaboration
+
+* Travail en équipe
+* Compréhension du besoin client
+* Documentation claire
+* Code lisible pour les autres
+
+### Organisation
+
+* Gestion du temps
+* Priorisation
+* Travail en méthode Agile / Scrum
+
+---
+
+## PROFIL IDÉAL
+
+La personne faite pour le développement logiciel possède généralement ces traits :
+
+* **Aime créer** : Tu prends plaisir à construire quelque chose à partir de rien
+* **Logique et structuré(e)** : Tu aimes organiser ton code
+* **Patient(e)** : Le debugging ne te décourage pas
+* **Curieux(se)** : Tu explores de nouveaux frameworks
+* **Souci de qualité** : Le “code propre” t’importe
+* **Esprit critique** : Tu remets en question tes solutions
+* **Goût pour l’abstraction** : Tu aimes concevoir avant d’implémenter
+* **Apprend en continu** : Les technos évoluent vite
+
+---
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Début de journée
+
+* Lire les tickets / user stories
+* Comprendre les besoins
+* Planifier les tâches
+
+### Journée
+
+* Implémenter des fonctionnalités
+* Corriger des bugs
+* Écrire des tests
+* Refactoriser du code existant
+* Participer aux code reviews
+* Documenter les solutions
+* Collaborer avec designers et product managers
+
+### Travail en équipe
+
+* Daily stand-up
+* Sprint planning
+* Rétrospectives
+* Démonstrations
+
+### Projets long-terme
+
+* Conception d’architecture
+* Amélioration de la qualité du code
+* Optimisation des performances
+* Migration technologique
+* Maintenance évolutive
+
+---
+
+## SIGNES QUE TU ES FAIT POUR LE DÉVELOPPEMENT LOGICIEL
+
+✅ Tu aimes résoudre des problèmes abstraits
+✅ Tu passes du temps à améliorer ton code même quand “ça marche”
+✅ Le debugging te stimule plus qu’il ne t’épuise
+✅ Tu aimes apprendre de nouveaux langages
+✅ Tu apprécies les architectures propres
+✅ Tu penses en termes de logique et de structure
+✅ Tu écris du code pour les humains, pas seulement pour la machine
+✅ Tu préfères comprendre plutôt que copier-coller
+✅ Tu aimes transformer des idées en applications
+✅ Tu sais que le bon code est rarement écrit du premier coup
+

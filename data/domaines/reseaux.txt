@@ -1,0 +1,180 @@
+# DOMAINE : Réseaux Informatiques / Network Engineering
+
+## DESCRIPTION GÉNÉRALE
+
+Les **réseaux informatiques** constituent l’infrastructure fondamentale de toute communication numérique. Ils permettent l’échange fiable et sécurisé de données entre machines, applications et utilisateurs, que ce soit au sein d’un réseau local (LAN), à l’échelle d’une entreprise (WAN) ou sur Internet.
+
+Le rôle d’un **Network Engineer** (ou ingénieur réseaux) est de **concevoir, déployer, sécuriser, maintenir et optimiser** des réseaux informatiques. Il s’assure que les données circulent correctement, rapidement et de manière sécurisée.
+Sans réseaux fiables, **le cloud, le DevOps, la Data et la cybersécurité n’existent pas**.
+
+Le domaine des réseaux repose sur des **fondations théoriques solides** (modèles OSI/TCP-IP) mais aussi sur une forte composante pratique (configuration, troubleshooting, sécurité).
+
+---
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Fondamentaux réseaux
+
+* Modèle **OSI** et **TCP/IP**
+* Adressage IP (IPv4, IPv6)
+* Subnetting (CIDR)
+* ARP, ICMP
+* Différence LAN / WAN / MAN
+* Bande passante, latence, jitter, perte de paquets
+
+### Protocoles réseau
+
+* TCP / UDP
+* HTTP / HTTPS
+* FTP / SFTP
+* SMTP / POP3 / IMAP
+* DNS
+* DHCP
+* SNMP
+* NTP
+
+### Commutation & Routage
+
+* Switches (VLAN, Trunking)
+* Spanning Tree Protocol (STP)
+* Routage statique
+* Protocoles de routage :
+
+  * RIP
+  * OSPF
+  * BGP
+* NAT, PAT
+
+### Sécurité réseau
+
+* Firewalls (stateful, stateless)
+* ACL (Access Control Lists)
+* IDS / IPS
+* Segmentation réseau
+* DMZ
+* VPN (IPsec, SSL)
+* TLS / chiffrement
+* Zero Trust (notions)
+
+### Réseaux sans fil
+
+* Wi-Fi (802.11 a/b/g/n/ac/ax)
+* Sécurité Wi-Fi (WPA2, WPA3)
+* Planification radio
+* Interférences
+
+### Réseaux Cloud
+
+* VPC / VNet
+* Subnets publics et privés
+* Load Balancers
+* Gateways (Internet, NAT)
+* Peering
+* VPN site-to-site / client-to-site
+* Réseaux hybrides
+
+### Outils & équipements
+
+* Cisco, Juniper (bases)
+* Routeurs et switches
+* Wireshark
+* tcpdump
+* ping, traceroute, netstat
+* ip, ss, ifconfig
+
+### Automatisation réseau (bases)
+
+* Bash / Python
+* Ansible (network automation)
+* APIs réseau
+* Infrastructure réseau as code
+
+---
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Troubleshooting
+
+* Diagnostic méthodique (couche par couche)
+* Analyse des paquets
+* Résolution d’incidents critiques
+* Travail sous pression
+
+### Rigueur & logique
+
+* Pensée structurée
+* Respect des standards
+* Documentation précise
+
+### Communication
+
+* Explication claire de problèmes techniques
+* Travail avec équipes systèmes, cloud, sécurité
+* Rédaction de schémas réseau
+
+---
+
+## PROFIL IDÉAL
+
+La personne faite pour les réseaux possède généralement ces traits :
+
+* **Aime comprendre comment les choses communiquent**
+* **Logique et méthodique**
+* **Patient(e)** : le debugging réseau peut être long
+* **À l’aise avec l’abstraction**
+* **Sensible à la sécurité**
+* **Apprécie la stabilité**
+* **Aime les fondations techniques solides**
+* **Curieux(se) du “comment ça marche”**
+
+---
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Début de journée
+
+* Vérifier l’état du réseau
+* Surveiller la latence et les erreurs
+* Lire les alertes et incidents
+
+### Journée
+
+* Configurer routeurs et switches
+* Mettre en place des VLANs
+* Déployer un VPN
+* Résoudre un problème de connectivité
+* Analyser du trafic réseau
+* Optimiser des routes
+* Sécuriser des accès réseau
+* Mettre à jour la documentation
+
+### Gestion d’incidents
+
+* Diagnostiquer une panne réseau
+* Travailler sous pression
+* Rétablir la connectivité rapidement
+* Identifier la cause racine
+
+### Projets long-terme
+
+* Refonte d’architecture réseau
+* Migration vers IPv6
+* Mise en place de segmentation réseau
+* Automatisation des configurations
+* Intégration réseau-cloud
+
+---
+
+## SIGNES QUE TU ES FAIT POUR LES RÉSEAUX
+
+✅ Tu aimes comprendre pourquoi “ça ne ping pas”
+✅ Le modèle OSI te parle vraiment
+✅ Tu réfléchis en termes de paquets
+✅ Tu aimes le troubleshooting méthodique
+✅ Tu apprécies la stabilité plus que la nouveauté
+✅ Tu veux comprendre Internet en profondeur
+✅ Tu es à l’aise avec les schémas techniques
+✅ Tu aimes quand les choses sont bien structurées
+✅ Tu préfères résoudre la cause, pas le symptôme
+✅ Tu sais que “c’est le réseau” est souvent vrai 😄
+

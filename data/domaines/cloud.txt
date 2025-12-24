@@ -1,0 +1,168 @@
+# DOMAINE : Cloud Computing / Cloud Engineering
+
+## DESCRIPTION GÉNÉRALE
+
+Le **Cloud Computing** consiste à concevoir, déployer et gérer des ressources informatiques (serveurs, stockage, bases de données, réseaux, services applicatifs) **à la demande**, via des plateformes cloud comme **AWS, Microsoft Azure et Google Cloud Platform (GCP)**.
+
+Le rôle d’un **Cloud Engineer** est de construire des architectures **scalables, sécurisées, résilientes et optimisées en coûts**. Il travaille à l’interface entre l’infrastructure, le réseau, la sécurité et parfois le développement applicatif.
+Le cloud n’est pas juste “des machines à distance” : c’est un **nouveau modèle de conception des systèmes**, basé sur l’élasticité, l’automatisation et les services managés.
+
+Le Cloud Computing est étroitement lié au DevOps, au SRE et au Data Engineering, mais se concentre avant tout sur **l’architecture, la gestion des ressources et la stratégie cloud**.
+
+---
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Fondamentaux Cloud
+
+* IaaS, PaaS, SaaS
+* Cloud public, privé, hybride
+* Multi-cloud
+* Scalabilité et élasticité
+* Haute disponibilité et tolérance aux pannes
+* Fault tolerance vs High availability
+
+### Fournisseurs Cloud
+
+* **AWS** : EC2, S3, RDS, IAM, VPC, Lambda, ECS, EKS, CloudWatch
+* **Azure** : Virtual Machines, Blob Storage, Azure AD, App Service, AKS
+* **GCP** : Compute Engine, Cloud Storage, IAM, GKE, BigQuery
+* Choix d’architecture selon le besoin
+
+### Réseau Cloud
+
+* VPC / VNet
+* Subnets publics et privés
+* Routing, NAT, Internet Gateway
+* Load Balancers
+* DNS (Route 53, Cloud DNS)
+* Peering, VPN, Direct Connect / ExpressRoute
+
+### Sécurité Cloud
+
+* IAM (Identity and Access Management)
+* Principe du moindre privilège
+* Gestion des rôles et permissions
+* Sécurité réseau (Security Groups, NSG)
+* Chiffrement au repos et en transit
+* Gestion des secrets (Secrets Manager, Key Vault)
+* Compliance et bonnes pratiques
+
+### Compute & Containers
+
+* Machines virtuelles
+* Auto-scaling
+* Docker
+* Kubernetes managé (EKS, AKS, GKE)
+* Serverless (AWS Lambda, Azure Functions)
+
+### Stockage & Bases de données
+
+* Stockage objet (S3, Blob, GCS)
+* Stockage bloc et fichier
+* Bases SQL managées (RDS, Cloud SQL)
+* Bases NoSQL (DynamoDB, CosmosDB, Firestore)
+* Backup, snapshots, réplication
+
+### Infrastructure as Code (IaC)
+
+* Terraform
+* CloudFormation
+* ARM / Bicep
+* Pulumi
+* Gestion d’environnements reproductibles
+
+### Monitoring & Optimisation
+
+* Monitoring natif cloud
+* Logs et métriques
+* Alerting
+* Observabilité
+* **Optimisation des coûts (FinOps)**
+
+---
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Architecture & conception
+
+* Traduire un besoin métier en architecture cloud
+* Choisir le bon service (coût / performance / complexité)
+* Anticiper la montée en charge
+
+### Analyse & prise de décision
+
+* Arbitrage technique
+* Évaluation des risques
+* Optimisation des coûts
+
+### Communication
+
+* Documentation d’architecture
+* Schémas clairs
+* Collaboration avec dev, sécurité, ops
+
+---
+
+## PROFIL IDÉAL
+
+La personne faite pour le Cloud Computing possède généralement ces traits :
+
+* **Aime concevoir des systèmes** : Tu réfléchis en termes d’architecture
+* **Vision globale** : Tu vois comment les composants interagissent
+* **Sens des responsabilités** : Une mauvaise config peut coûter cher
+* **Curieux(se)** : Tu explores les services cloud en profondeur
+* **Pragmatique** : Tu choisis la solution adaptée, pas la plus complexe
+* **Orienté(e) fiabilité** : La résilience t’importe
+* **Sensible aux coûts** : Tu fais attention à chaque ressource utilisée
+* **À l’aise avec l’abstraction** : Tu travailles à haut niveau
+
+---
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Début de journée
+
+* Vérifier l’état des ressources cloud
+* Surveiller les coûts et alertes
+* Lire les incidents ou changements récents
+
+### Journée
+
+* Concevoir une architecture cloud
+* Déployer des ressources via Terraform
+* Configurer IAM et règles de sécurité
+* Mettre en place un auto-scaling
+* Optimiser une architecture existante
+* Migrer une application on-premise vers le cloud
+* Mettre en place des backups et DR plans
+
+### Collaboration
+
+* Travailler avec les développeurs
+* Échanger avec la sécurité
+* Conseiller sur les bonnes pratiques cloud
+
+### Projets long-terme
+
+* Migration cloud
+* Adoption du serverless
+* Mise en place d’architectures multi-cloud
+* Optimisation des coûts à grande échelle
+* Standardisation des architectures
+
+---
+
+## SIGNES QUE TU ES FAIT POUR LE CLOUD COMPUTING
+
+✅ Tu aimes dessiner des architectures
+✅ Tu réfléchis en termes de scalabilité
+✅ Tu te demandes toujours “et si ça tombe ?”
+✅ Tu aimes comprendre comment Internet fonctionne
+✅ Les concepts abstraits ne te font pas peur
+✅ Tu fais attention aux coûts même en TP
+✅ Tu préfères les services managés
+✅ Tu aimes automatiser les déploiements
+✅ Tu penses sécurité par défaut
+✅ Tu veux des systèmes robustes et flexibles
+
