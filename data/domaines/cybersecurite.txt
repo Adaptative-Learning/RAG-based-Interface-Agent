@@ -1,0 +1,177 @@
+# DOMAINE : Cybersécurité / Cybersecurity Engineering
+
+## DESCRIPTION GÉNÉRALE
+
+La **cybersécurité** consiste à **protéger les systèmes informatiques, les réseaux, les applications et les données** contre les attaques, les intrusions et les abus. Elle vise à garantir la **confidentialité, l’intégrité et la disponibilité** des informations (triade CIA).
+
+Le rôle d’un **Cybersecurity Engineer / Analyst** est d’anticiper, détecter, analyser et répondre aux menaces. Contrairement à l’image du “hacker en hoodie”, la cybersécurité est avant tout un **travail méthodique, rigoureux et défensif**, fortement basé sur la compréhension profonde des systèmes.
+
+La cybersécurité est transversale : elle touche le développement, les réseaux, le cloud, le DevOps et même le facteur humain.
+
+---
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Fondamentaux de la sécurité
+
+* Triade **CIA** (Confidentialité, Intégrité, Disponibilité)
+* Menaces, vulnérabilités, risques
+* Modélisation des menaces (Threat Modeling)
+* Sécurité par conception (Security by Design)
+* Défense en profondeur
+
+### Systèmes & OS
+
+* Sécurité Linux / Windows
+* Gestion des utilisateurs et permissions
+* Hardening des systèmes
+* Logs systèmes
+* Gestion des patchs et mises à jour
+
+### Réseaux & sécurité réseau
+
+* TCP/IP, DNS, HTTP/HTTPS
+* Firewalls, ACL
+* IDS / IPS
+* VPN (IPsec, SSL)
+* Proxy, WAF
+* Analyse de trafic (Wireshark)
+
+### Sécurité applicative
+
+* OWASP Top 10
+* Vulnérabilités web (XSS, SQL Injection, CSRF)
+* Authentification & autorisation
+* Sécurité des APIs
+* Gestion des sessions
+* Secure coding
+
+### Cryptographie
+
+* Chiffrement symétrique / asymétrique
+* Hashing (SHA, bcrypt)
+* TLS / SSL
+* Gestion des clés
+* PKI (bases)
+
+### Pentesting & Red Team (bases)
+
+* Reconnaissance
+* Scanning (Nmap)
+* Exploitation (Metasploit)
+* Tests d’intrusion
+* Éthique et cadre légal
+
+### Blue Team & SOC
+
+* Détection d’intrusions
+* SIEM (Splunk, ELK)
+* Analyse d’alertes
+* Réponse à incident
+* Threat Intelligence
+
+### Cloud & DevSecOps
+
+* Sécurité cloud (IAM, VPC, Security Groups)
+* Secrets management
+* Scanning de vulnérabilités
+* Sécurité CI/CD
+* Zero Trust
+
+### Outils courants
+
+* Nmap
+* Wireshark
+* Burp Suite
+* Metasploit
+* Nessus
+* Splunk / ELK
+* OpenVAS
+
+---
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Analyse & rigueur
+
+* Attention extrême aux détails
+* Pensée paranoïaque saine
+* Capacité d’analyse sous pression
+
+### Éthique & responsabilité
+
+* Respect du cadre légal
+* Confidentialité
+* Sens des responsabilités
+
+### Communication
+
+* Rédaction de rapports de sécurité
+* Sensibilisation des équipes
+* Collaboration avec IT, dev, management
+
+---
+
+## PROFIL IDÉAL
+
+La personne faite pour la cybersécurité possède généralement ces traits :
+
+* **Méfiance constructive** : Tu te demandes toujours “comment ça peut casser ?”
+* **Curieux(se)** : Tu veux comprendre le fonctionnement interne des systèmes
+* **Rigoureux(se)** : Le détail compte énormément
+* **Patient(e)** : Les investigations peuvent être longues
+* **Responsable** : Tu sais que tes actions ont un impact critique
+* **Esprit analytique** : Tu réfléchis comme un attaquant et un défenseur
+* **Éthique forte** : Tu respectes les règles
+
+---
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Début de journée
+
+* Analyse des alertes de sécurité
+* Revue des logs
+* Suivi des vulnérabilités récentes (CVE)
+
+### Journée
+
+* Analyse d’incidents de sécurité
+* Tests de vulnérabilités
+* Durcissement des systèmes
+* Revue de code sécurisé
+* Mise en place de règles de sécurité
+* Sensibilisation des équipes
+* Documentation et reporting
+
+### Gestion d’incidents
+
+* Détection d’une attaque
+* Confinement
+* Éradication
+* Récupération
+* Post-mortem sécurité
+
+### Projets long-terme
+
+* Mise en place d’un SOC
+* Implémentation Zero Trust
+* Migration vers DevSecOps
+* Audits de sécurité
+* Amélioration continue des politiques
+
+---
+
+## SIGNES QUE TU ES FAIT POUR LA CYBERSÉCURITÉ
+
+✅ Tu te demandes toujours “et si quelqu’un attaquait ça ?”
+✅ Tu aimes comprendre comment casser un système
+✅ Tu fais attention aux détails
+✅ Tu préfères prévenir que guérir
+✅ Tu aimes enquêter
+✅ Les logs ne t’ennuient pas
+✅ Tu respectes strictement l’éthique
+✅ Tu penses comme un attaquant mais agis comme un défenseur
+✅ Tu apprécies les environnements critiques
+✅ La sécurité passe avant le confort
+

@@ -1,0 +1,180 @@
+# DOMAINE : Data Science / Machine Learning
+
+## DESCRIPTION GÉNÉRALE
+
+La **Data Science** est un domaine interdisciplinaire qui combine statistiques, informatique et connaissance métier pour extraire de la valeur à partir des données. Le rôle du Data Scientist consiste à **analyser, comprendre, modéliser et exploiter les données** afin d’aider à la prise de décision, à la prédiction et à l’automatisation intelligente.
+
+Un Data Scientist travaille sur des données souvent imparfaites : incomplètes, bruitées, déséquilibrées. Une grande partie du travail consiste donc à **nettoyer, transformer et explorer les données** avant même de construire des modèles. Les modèles de Machine Learning permettent ensuite de détecter des patterns, faire des prédictions ou classifier des informations.
+
+La Data Science ne se limite pas aux modèles : elle inclut la **compréhension du problème**, le choix des bonnes métriques, l’interprétation des résultats et leur **communication claire** aux parties prenantes.
+
+---
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Mathématiques & statistiques
+
+* Statistiques descriptives (moyenne, variance, corrélation)
+* Probabilités
+* Tests statistiques (t-test, chi², ANOVA)
+* Régressions (linéaire, logistique)
+* Analyse exploratoire des données (EDA)
+* Notions d’optimisation
+
+### Programmation
+
+* **Python** (langage principal)
+* Bibliothèques :
+
+  * NumPy (calcul numérique)
+  * Pandas (manipulation de données)
+  * Matplotlib / Seaborn (visualisation)
+  * Scikit-learn (Machine Learning)
+* **SQL** (requêtes, jointures, agrégations)
+* Notions de R (optionnel)
+
+### Data Cleaning & Préparation
+
+* Gestion des valeurs manquantes
+* Détection et traitement des outliers
+* Encodage des variables catégorielles
+* Normalisation / standardisation
+* Feature engineering
+* Gestion des données déséquilibrées
+
+### Machine Learning
+
+* Apprentissage supervisé :
+
+  * Régression
+  * Classification (KNN, SVM, Random Forest, XGBoost)
+* Apprentissage non supervisé :
+
+  * Clustering (K-Means, DBSCAN)
+  * Réduction de dimension (PCA)
+* Évaluation des modèles :
+
+  * Accuracy, Precision, Recall, F1-score
+  * ROC-AUC
+  * Cross-validation
+* Overfitting / Underfitting
+
+### Deep Learning (bases)
+
+* Réseaux de neurones
+* TensorFlow / PyTorch (notions)
+* CNN, RNN (intro)
+* Fine-tuning de modèles pré-entraînés
+
+### Data Visualization
+
+* Graphiques clairs et pertinents
+* Storytelling avec les données
+* Dashboards (Streamlit, Power BI, Tableau)
+* Interprétation visuelle des résultats
+
+### Big Data & Data Engineering (bases)
+
+* Concepts Big Data
+* Spark (notions)
+* Pipelines de données
+* Formats de données (CSV, JSON, Parquet)
+
+### Déploiement & MLOps (initiation)
+
+* Sauvegarde de modèles
+* APIs simples (FastAPI, Flask)
+* Suivi d’expériences
+* Versioning des données et modèles
+* Introduction au MLOps
+
+---
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Analyse & raisonnement
+
+* Pensée analytique
+* Esprit critique face aux résultats
+* Capacité à poser les bonnes questions
+* Compréhension métier
+
+### Communication
+
+* Vulgarisation des résultats techniques
+* Présentation claire (graphiques, rapports)
+* Storytelling data-driven
+* Collaboration avec équipes non techniques
+
+### Organisation
+
+* Gestion de projets data
+* Reproductibilité des analyses
+* Documentation des expériences
+
+---
+
+## PROFIL IDÉAL
+
+La personne faite pour la Data Science possède généralement ces traits :
+
+* **Aime comprendre et analyser** : Tu veux savoir *pourquoi* les choses se produisent
+* **À l’aise avec les données imparfaites** : Le chaos des données ne te fait pas peur
+* **Curieux(se)** : Tu explores les données avant même qu’on te le demande
+* **Patient(e)** : Le nettoyage des données ne te décourage pas
+* **À l’aise avec les chiffres** : Les statistiques ne t’effraient pas
+* **Esprit critique** : Tu ne fais pas confiance aveuglément aux modèles
+* **Aime expérimenter** : Tu testes plusieurs approches avant de conclure
+* **Apprend en continu** : Nouveaux modèles, nouvelles méthodes, nouveaux outils
+
+---
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Début de journée
+
+* Comprendre le problème métier
+* Explorer un nouveau dataset
+* Vérifier la qualité des données
+* Lire les résultats d’un modèle entraîné
+
+### Journée
+
+* Nettoyer et préparer les données
+* Réaliser une analyse exploratoire (EDA)
+* Construire et entraîner des modèles
+* Tester différentes features
+* Comparer plusieurs algorithmes
+* Ajuster les hyperparamètres
+* Créer des visualisations explicatives
+* Documenter les résultats
+
+### Collaboration
+
+* Échanger avec les équipes métier
+* Expliquer les résultats et limites des modèles
+* Adapter les analyses aux besoins réels
+* Présenter des insights exploitables
+
+### Projets long-terme
+
+* Amélioration continue des modèles
+* Collecte de nouvelles données
+* Mise en production de modèles
+* Suivi des performances dans le temps
+
+---
+
+## SIGNES QUE TU ES FAIT POUR LA DATA SCIENCE
+
+✅ Tu passes trop de temps à explorer des datasets
+✅ Tu aimes expliquer des graphiques
+✅ Les données sales ne te font pas fuir
+✅ Tu testes plusieurs modèles “juste pour voir”
+✅ Tu te demandes toujours *si le résultat a du sens*
+✅ Tu préfères une bonne visualisation à un long texte
+✅ Tu passes plus de temps en EDA qu’en modélisation
+✅ Tu aimes transformer des chiffres en décisions
+✅ Les statistiques commencent à te sembler intuitives
+✅ Tu trouves satisfaisant de faire parler les données
+

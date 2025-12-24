@@ -1,0 +1,152 @@
+# DOMAINE : DevOps / Site Reliability Engineering (SRE)
+
+## DESCRIPTION GÉNÉRALE
+
+Le DevOps est une philosophie et un ensemble de pratiques qui visent à unifier le développement logiciel (Dev) et l'administration système (Ops). Les ingénieurs DevOps sont responsables de l'automatisation, de l'optimisation et de la fiabilisation des processus de livraison et de déploiement des applications. Ils créent des pipelines CI/CD (Continuous Integration/Continuous Deployment), gèrent l'infrastructure comme du code, et assurent que les applications fonctionnent de manière fiable en production.
+
+Le rôle d'un DevOps va bien au-delà de la simple administration système. Il s'agit de créer une culture de collaboration entre les équipes de développement et d'opérations, d'automatiser tout ce qui peut l'être, et de mettre en place des systèmes de monitoring et d'alerte pour détecter et résoudre les problèmes avant qu'ils n'impactent les utilisateurs.
+
+Le Site Reliability Engineer (SRE) est une évolution du DevOps, popularisée par Google. Les SRE appliquent des principes d'ingénierie logicielle aux problèmes d'infrastructure et d'opérations. Ils se concentrent particulièrement sur la fiabilité, la disponibilité, la latence, la performance et la capacité des systèmes. Les SRE utilisent des SLO (Service Level Objectives) pour mesurer et garantir la qualité de service.
+
+## COMPÉTENCES TECHNIQUES CLÉS
+
+### Systèmes d'exploitation
+- Administration Linux/Unix avancée (Debian, Ubuntu, CentOS, RedHat)
+- Ligne de commande (Bash, terminal)
+- Gestion des processus, services et démons
+- Gestion des permissions et sécurité système
+- Système de fichiers et stockage
+
+### Langages de programmation et scripting
+- Python (automatisation, scripts, outils)
+- Bash/Shell scripting (automatisation système)
+- Go (outils DevOps, performance)
+- YAML (configuration)
+- JSON (données structurées)
+
+### Conteneurisation et orchestration
+- Docker (création d'images, Dockerfile, docker-compose)
+- Kubernetes (pods, services, deployments, ingress)
+- Helm (gestion de packages Kubernetes)
+- Container registries (Docker Hub, Harbor, ECR)
+
+### CI/CD et automatisation
+- Jenkins (pipelines, jobs)
+- GitLab CI/CD
+- GitHub Actions
+- CircleCI, Travis CI
+- ArgoCD (GitOps)
+
+### Infrastructure as Code (IaC)
+- Terraform (gestion multi-cloud)
+- Ansible (configuration management)
+- CloudFormation (AWS)
+- Pulumi
+
+### Cloud computing
+- AWS (EC2, S3, RDS, Lambda, ECS, EKS, CloudWatch)
+- Azure (VMs, App Service, AKS)
+- Google Cloud Platform (Compute Engine, GKE)
+- Concepts multi-cloud et cloud hybride
+
+### Monitoring et observabilité
+- Prometheus (métriques)
+- Grafana (visualisation)
+- ELK Stack (Elasticsearch, Logstash, Kibana) pour les logs
+- Datadog, New Relic (solutions complètes)
+- Jaeger, Zipkin (tracing distribué)
+- Alerting et gestion d'incidents
+
+### Réseau et sécurité
+- Protocoles réseau (TCP/IP, HTTP/HTTPS, DNS, SSL/TLS)
+- Load balancing (Nginx, HAProxy, ALB)
+- Firewalls et règles de sécurité
+- VPN et connexions sécurisées
+- Gestion des secrets (Vault, Sealed Secrets)
+
+### Versioning et collaboration
+- Git (branches, merge, rebase, workflows)
+- GitHub, GitLab, Bitbucket
+- GitOps (Flux, ArgoCD)
+
+### Bases de données
+- SQL (PostgreSQL, MySQL)
+- NoSQL (MongoDB, Redis, Cassandra)
+- Backup et restauration
+- Réplication et haute disponibilité
+
+## COMPÉTENCES NON-TECHNIQUES
+
+### Résolution de problèmes
+- Debugging complexe
+- Analyse de logs et métriques
+- Troubleshooting sous pression
+- Pensée systémique
+
+### Communication
+- Documentation claire
+- Collaboration dev-ops
+- Gestion d'incidents
+- Post-mortems constructifs
+
+### Mindset
+- Culture de l'automatisation
+- Amélioration continue
+- Anticipation des problèmes
+- Pragmatisme et efficacité
+
+## PROFIL IDÉAL
+
+La personne faite pour le DevOps possède généralement ces traits :
+
+- **Aime optimiser et automatiser** : Si tu te surprends à penser "comment automatiser ça ?" dès que tu fais une tâche répétitive, c'est un excellent signe
+- **Apprécie la fiabilité et la stabilité** : Tu aimes que les choses fonctionnent parfaitement et tu es prêt à investir du temps pour rendre un système robuste
+- **Confortable avec l'incertitude** : Les incidents en production sont stressants, mais tu aimes résoudre des problèmes sous pression
+- **Passion pour les outils** : Tu aimes découvrir de nouveaux outils, les comparer, les tester
+- **Aime mesurer et améliorer** : Les métriques, les graphiques, l'optimisation de performances te fascinent
+- **Esprit d'équipe** : Le DevOps nécessite de collaborer avec les développeurs, les ops, la sécurité
+- **Curiosité technique large** : Tu t'intéresses autant au code qu'à l'infrastructure, aux réseaux, au cloud
+- **Pragmatique** : Tu cherches la solution qui fonctionne, pas forcément la plus élégante théoriquement
+- **Aime apprendre constamment** : Les technologies évoluent vite, tu dois rester à jour
+
+## ACTIVITÉS QUOTIDIENNES TYPIQUES
+
+### Matin
+- Vérifier les dashboards de monitoring (uptime, latence, erreurs)
+- Lire les alertes nocturnes et incidents résolus
+- Participer au stand-up avec l'équipe dev
+- Review de pull requests liées à l'infrastructure
+
+### Journée
+- Améliorer un pipeline CI/CD existant
+- Investiguer une augmentation de latence sur un service
+- Écrire du code Terraform pour provisionner de nouvelles ressources
+- Créer un dashboard Grafana pour une nouvelle métrique
+- Automatiser un processus manuel de déploiement
+- Optimiser les coûts cloud (réduire les instances sous-utilisées)
+- Documenter une procédure d'incident
+
+### Gestion d'incidents
+- Être d'astreinte (on-call) certaines semaines
+- Répondre aux alertes en cas de problème en production
+- Coordonner la résolution d'incident avec l'équipe
+- Écrire un post-mortem après un incident majeur
+
+### Projets long-terme
+- Migration vers Kubernetes
+- Mise en place d'un système de logging centralisé
+- Amélioration de la stratégie de backup
+- Implémentation du chaos engineering
+
+## SIGNES QUE TU ES FAIT POUR LE DEVOPS
+
+✅ Tu automatises tout, même ta vie personnelle
+✅ Tu aimes les graphiques et les métriques
+✅ "Ça marche sur ma machine" te frustre énormément
+✅ Tu lis les logs pour le plaisir
+✅ Tu compares constamment les outils entre eux
+✅ L'idée d'optimiser un processus t'excite
+✅ Tu rêves en YAML
+✅ Tu veux que les choses soient reproductibles et fiables
+✅ Tu aimes résoudre des problèmes complexes sous pression
+✅ La CLI te semble plus rapide que les interfaces graphiques
